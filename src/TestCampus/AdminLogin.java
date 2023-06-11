@@ -1,4 +1,7 @@
 package TestCampus;
 
-public class AdminLogin {
+import GWD.BaseDriver;
+
+public class AdminLogin extends BaseDriver {
+
 }
