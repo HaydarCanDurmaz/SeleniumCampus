@@ -17,7 +17,8 @@ public class StudentLogin extends BaseDriver {
         WebElement Password = driver.findElement(By.id("mat-input-1"));
         Password.sendKeys("12345");
 
-        WebElement Login = driver.findElement(By.cssSelector(""));
+        WebElement Login = driver.findElement(By.linkText(" GİRİŞ YAP "));
+        Login.click();
 
 
 

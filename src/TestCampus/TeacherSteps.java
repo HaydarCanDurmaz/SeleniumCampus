@@ -1,11 +1,14 @@
 package TestCampus;
 
 import GWD.BaseDriver;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class TeacherSteps  extends BaseDriver {
-    public void Test(){
+    @Test
+    public void Test()
+    {
         driver.get("https://test.mersys.io/");
 
         WebElement username = driver.findElement(By.id("mat-input-0"));
@@ -14,7 +17,8 @@ public class TeacherSteps  extends BaseDriver {
         WebElement Password = driver.findElement(By.id("mat-input-1"));
         Password.sendKeys("T12345");
 
-        WebElement Login = driver.findElement(By.cssSelector(""));
+        WebElement Login = driver.findElement(By.cssSelector("button[aria-label='LOGIN']"));
+        Login.click();
 
 
 
