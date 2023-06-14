@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 public class TeacherLogin extends BaseDriver {
   @Test
-  public void Test(){
+  public void TeacherLogin(){
     driver.get("https://test.mersys.io/");
 
     WebElement username = driver.findElement(By.id("mat-input-0"));

@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 
 public class TeacherSteps  extends BaseDriver {
     @Test
-    public void Test()
+    public void TeacherSteps()
     {
         driver.get("https://test.mersys.io/");
 
